@@ -11,7 +11,6 @@
     }
     .text {
         max-width: 650px;
-        height: calc(100% - 180px);
         margin: 0 auto;
         padding: 180px 64px 0px 64px;
         color: #3C3C43;
@@ -27,4 +26,19 @@
             clear: both;
         }
     }
+}
+
+@media screen and (max-width: 430px) {
+.about {
+    .sidebar {
+        display: none;
+    }
+    .text {
+        width: 90%;
+        padding: 128px 0;
+        p {
+            padding-bottom: 64px;
+        }
+    }
+}
 }
