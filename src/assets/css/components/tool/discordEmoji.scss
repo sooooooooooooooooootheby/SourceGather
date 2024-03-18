@@ -1,0 +1,252 @@
+.discordEmoji {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3C3C43;
+
+    .menu {
+        width: 600px;
+        padding: 20px;
+        background-color: #FFFFFF;
+        border-radius: 12px;
+
+        .get {
+            width: 100%;
+
+            .warning {
+                padding: 15px;
+                display: flex;
+                flex-direction: column;
+                color: #B55155;
+
+                span {
+                    font-size: 18px;
+                    margin-bottom: 5px;
+                    color: #62293A;
+                }
+
+                p {
+                    margin: 0;
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+            }
+
+            .warning:hover {
+                background-color: #839476;
+            }
+
+            .server {
+                margin: 5px 0;
+                padding: 10px;
+            }
+
+            p {
+                span {
+                    color: #839476;
+                    cursor: pointer;
+                }
+            }
+
+            input {
+                width: calc(100% - 20px);
+                height: 30px;
+                padding: 10px;
+                border: none;
+                background-color: #839476;
+                border-radius: 8px;
+                font-size: 20px;
+                color: #FFFFFF;
+                outline: none;
+            }
+
+            input:-webkit-autofill {
+                -webkit-box-shadow: 0 0 0 1000px #839476 inset !important;
+            }
+
+
+            div {
+                display: flex;
+                background-color: #839476;
+                border-radius: 12px;
+                cursor: pointer;
+                transition: 0.3s;
+
+                img {
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 8px;
+                }
+
+                p {
+                    line-height: 48px;
+                    margin-left: 10px;
+                }
+            }
+
+            div:hover {
+                background-color: #3C3C43C7;
+            }
+
+            .checkedServer {
+                background-color: #3C3C43C7;
+            }
+
+            button {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .emojiList {
+        width: 640px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 12px;
+        margin-top: 20px;
+
+        ul {
+            width: calc(100% - 40px);
+            margin: 10px 0;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-radius: 12px;
+            display: flex;
+            flex-wrap: wrap;
+
+            div {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    margin-left: 10px;
+                }
+
+                button {
+                    margin: 10px;
+                }
+            }
+
+            li {
+                list-style: none;
+
+                label {
+                    display: flex;
+                    margin: 5px;
+                    padding: 10px;
+                    background-color: #839476;
+                    border-radius: 12px;
+                    transition: 0.3s;
+
+                    img {
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 8px;
+                    }
+
+                    p {
+                        line-height: 32px;
+                        margin-left: 10px;
+                    }
+                }
+
+                input {
+                    display: none;
+                }
+
+                input:checked+label {
+                    background-color: #3C3C43C7;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #839476;
+        border-radius: 8px;
+        border: none;
+        color: #FFFFFF;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+        text-decoration: none;
+    }
+
+    button:hover {
+        background-color: #3C3C43;
+    }
+
+    .tokenHint {
+        width: 100vw;
+        height: 100vh;
+        background-color: #000000bb;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        font-size: 14px;
+        transition: 0.3s;
+
+        h3 {
+            margin: 20px;
+        }
+
+        ul {
+            li {
+                margin: 5px 0;
+            }
+        }
+
+        img {
+            margin: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .discordEmoji {
+        width: 100vw;
+        padding-top: 120px;
+
+        .menu {
+            width: calc(90vw - 40px);
+            .get {
+                .warning {
+                    margin: 10px 0;
+                }
+                p {
+                    margin: 5px 0;
+                }
+            }
+        }
+
+        .emojiList {
+            width: 90vw;
+            margin: 0;
+            padding: 0;
+
+            ul {
+                width: calc(100% - 40px);
+                li {
+                    width: calc(100% - 30px);
+                    label {
+                        width: 100%;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}

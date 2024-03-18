@@ -1,0 +1,30 @@
+.about {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    .sidebar {
+        width: 40%;
+        height: calc(100% - 106px);
+        margin-top: 106px;
+        background-image: url('@/assets/image/sidebar.png');
+        background-size: cover;
+    }
+    .text {
+        max-width: 650px;
+        height: calc(100% - 180px);
+        margin: 0 auto;
+        padding: 180px 64px 0px 64px;
+        color: #3C3C43;
+        line-height: 32px;
+        img {
+            width: 128px;
+            height: 128px;
+            float: right;
+            border-radius: 128px;
+            margin-bottom: 20px;
+        }
+        p {
+            clear: both;
+        }
+    }
+}

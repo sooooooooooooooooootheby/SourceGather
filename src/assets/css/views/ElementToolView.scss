@@ -1,0 +1,80 @@
+.element {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 106px 0;
+
+    ul {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        li {
+            list-style: none;
+            display: block;
+            margin: 10px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #FFFFFF;
+            border-radius: 12px;
+            transition: 0.3s;
+
+            .title {
+                margin-bottom: 30px;
+
+                p {
+                    color: #3C3C43;
+                    font-size: 18px;
+                    font-family: sourceHanBold;
+                    margin-bottom: 10px;
+                }
+
+                span {
+                    color: #3C3C43C7;
+                    font-size: 14px;
+
+                    a {
+                        color: #839476;
+                        transition: 0.3s;
+                    }
+
+                    a:hover {
+                        color: #3C3C43;
+                    }
+                }
+            }
+
+            .button {
+                padding: 10px 20px;
+                background-color: #839476;
+                border-radius: 20px;
+                color: #FFFFFF;
+                font-size: 16px;
+            font-family: sourceHanBold;
+
+                cursor: pointer;
+                transition: 0.3s;
+                text-decoration: none;
+            }
+
+            .button:hover {
+                background-color: #3C3C43;
+            }
+        }
+
+        li:hover {
+            transform: scale(1.05);
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .element {
+        ul {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

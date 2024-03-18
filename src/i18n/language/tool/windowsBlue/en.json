@@ -1,0 +1,54 @@
+{
+    "windowsBlue": {
+        "card": {
+            "p": "windows Blue Screen & Update Emulator",
+            "span": "Simulate windows failure, It's easy to do other things at work"
+        },
+        "console": {
+            "p": "Press ctrl + alt to exit",
+            "win7Blue": "windows 7 blue screen",
+            "win10Blue": "windows 10 & 11 blue screen",
+            "win10Update": "windows 10 & 11 Update",
+            "mode1": "normal mode",
+            "mode2": "mischief mode"
+        },
+        "win10Blue": {
+            "mischief": {
+                "p1": "Your computer is fucking experiencing problems and needs fucking to be restarted. We will not restart it for you.",
+                "p2": "Because it's fucking not gonna help if you restart it, okay? you know what i fucking saying?",
+                "span": "complete",
+                "p3": "For more info about this issue and possible fixes, visithttp://windows.com/stopcode",
+                "p4": "lf you call a support person, give them this infa:",
+                "p5": "stop code: CTRL SLACK OFF: "
+            },
+            "normal": {
+                "p1": "Your PC ran into a problem and needs to restart as soon as.",
+                "p2": "we're finished collecting some error info.",
+                "span": "complete",
+                "p3": "For more info about this issue and possible fixes, visithttp://windows.com/stopcode",
+                "p4": "lf you call a support person, give them this infa:",
+                "p5": "stop code: CTRL SLACK OFF: "
+            }
+        },
+        "win10Update": {
+            "mischief": {
+                "p1": "working on Update",
+                "p2": "complete",
+                "p3": "Don't tum off your PC",
+                "p4": "Click Invite Friends to slash to complete the update",
+                "card": {
+                    "p1": "Click Share button Copy link Invite friends!",
+                    "p2": "Just 0.1 to complete the update, only need a friend!",
+                    "p3": "Share failed, your computer can not complete the update, do you want to cancel the update?",
+                    "div1": "yes",
+                    "div2": "no"
+                }
+            },
+            "normal": {
+                "p1": "working on Update",
+                "p2": "complete",
+                "p3": "Don't tum off your PC"
+            }
+        }
+    }
+}

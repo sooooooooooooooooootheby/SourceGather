@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #839376;
+    background-image: url('@/assets/image/bg.png');
+    font-family: sourceHanMedium;
+}
+
+::selection {
+    background-color: #606C54;
+    color: #fff;
+}
+
+@font-face {
+    font-family: "sourceHanBold";
+    src: url("@/assets/font/SourceHanSansOLD-Bold-2.otf");
+}
+@font-face {
+    font-family: "sourceHanMedium";
+    src: url("@/assets/font/SourceHanSansOLD-Medium-2.otf");
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}

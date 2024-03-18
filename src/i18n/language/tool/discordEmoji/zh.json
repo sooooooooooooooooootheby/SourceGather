@@ -1,0 +1,38 @@
+{
+    "discordEmoji": {
+        "card": {
+            "p": "Discord Emoji 下载器",
+            "span": "把Discord服务器中的所有表情贴纸打包到ZIP下载。"
+        },
+        "menu": {
+            "h1": "Discord Emoji 下载器",
+            "get": {
+                "warning": {
+                    "span": "警告:小心，共享您的用户令牌可能是危险的!",
+                    "p" : "这个页面不会以任何有害的方式使用你的用户令牌，只使用它来与Discord进行身份验证，获取你的服务器列表和他们的表情符号。"
+                },
+                "p": "用户令牌",
+                "button": "提交"
+            }
+        },
+        "emoji": {
+            "p": "已选",
+            "button1": "下载全部",
+            "button2": "下载选中的"
+        },
+        "tokenHint": {
+            "title": "如何获取用户令牌",
+            "li1": "打开Discord桌面应用程序或登录Discord网站",
+            "li2": "用键盘快捷键打开Chrome开发工具",
+            "li3": "转到网络选项卡",
+            "li4": "单击XHR按钮，只过滤到XHR请求",
+            "li5": "在Discord中做任何动作，比如打开一个频道",
+            "li6": "点击列表中出现的science请求",
+            "li7": "转到Headers选项卡",
+            "li8": "在Request Headers下找到授权并复制令牌(确保复制整个令牌，不要复制任何空格)",
+            "button": "我知道了"
+        },
+        "err1": "请输入Token。",
+        "err2": "获取服务器列表出错，请检查Token是否正确，或者通过右上角导航栏联系我。"
+    }
+}

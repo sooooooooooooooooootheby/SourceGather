@@ -1,0 +1,141 @@
+.home {
+    width: calc(100vw - 256px);
+    height: auto;
+    padding: 168px 128px 0px 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3C3C43;
+
+    >div {
+        margin-bottom: 60px;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 50px;
+            font-family: sourceHanBold;
+
+        }
+
+        h2 {
+            font-size: 40px;
+            font-family: sourceHanBold;
+
+        }
+
+        p {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 18px;
+        }
+    }
+
+    .characteristic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            display: flex;
+
+            li {
+                max-width: 230px;
+                margin: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+
+                svg {
+                    font-size: 48px;
+                    margin-bottom: 10px;
+                }
+
+                span {
+                    font-size: 22px;
+                    font-family: sourceHanBold;
+
+                }
+
+                p {
+                    font-size: 14px;
+                    text-align: center;
+                    color: #3C3C43C7
+                }
+            }
+        }
+    }
+
+    .technology {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-family: sourceHanBold;
+
+        }
+
+        ul {
+            display: flex;
+
+            li {
+                margin: 30px;
+                padding: 10px 30px;
+                display: flex;
+                list-style: none;
+                border: 2px solid #3C3C43C7;
+                border-radius: 100px;
+                transition: 0.3s;
+            }
+
+            li:hover {
+                background-color: #3C3C43;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .home {
+        width: 100vw;
+        padding: 104px 0 0 0;
+        .title {
+            padding: 5vh 0;
+            h1 {
+                font-size: 34px;
+                text-align: center;
+            }
+            h2 {
+                font-size: 28px;
+                text-align: center;
+            }
+            p {
+                font-size: 16px;
+                color: #3C3C43C7;
+            }
+        }
+    }
+    .characteristic {
+        ul {
+            flex-direction: column;
+            li {
+                margin: 30px 0 !important;
+            }
+        }
+    }
+    .technology {
+        p {
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "discordEmoji": {
+        "card": {
+            "p": "Discord Emoji Downloader",
+            "span": "Get all emojis from a discord server in a ZIP file."
+        },
+        "menu": {
+            "h1": "Discord Emoji Downloader",
+            "get": {
+                "warning": {
+                    "span": "Warning: be careful, sharing your user token can be dangerous!",
+                    "p": "This page does not use your user token in any harmful way and only uses it to authenticate with Discord,fetch your server list and their emojis."
+                },
+                "p": "User Token",
+                "button": "submit"
+            }
+        },
+        "emoji": {
+            "p": "selected",
+            "button1": "download all",
+            "button2": "download selected"
+        },
+        "tokenHint": {
+            "title": "How to get your user token",
+            "li1": "Open the Discord desktop app or login on the Discord website here",
+            "li2": "Open the Chrome Dev Tools with the keyboard shortcut",
+            "li3": "Go to the Network tab",
+            "li4": "Click the XHR button to filter to XHR requests only",
+            "li5": "Do any action in Discord like opening a channel",
+            "li6": "Click the science request that shows up in the list",
+            "li7": "Go to the Headers tab",
+            "li8": "Find authorization under Request Headers and copy your token (make sure you copy the entire token and don't copy any spaces)",
+            "button": "Got it"
+        },
+        "err1": "Please enter Token.",
+        "err2": "Error obtaining server list, please check whether the Token is correct, or contact me through the upper right navigation bar."
+    }
+}

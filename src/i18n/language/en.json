@@ -1,0 +1,46 @@
+{
+    "guider": {
+        "banner": "Advertising space for rent",
+        "menu": {
+            "home": "Home",
+            "element": "Element",
+            "tool": "Tool",
+            "about": "About"
+        }
+    },
+    "home": {
+        "title": {
+            "title1": "Open-Source Warehouse",
+            "title2": "elements for any project",
+            "p1": "Using our elements in the preview here,",
+            "p2": "they may not be useful,",
+            "p3": "but they are not necessarily fun either."
+        },
+        "characteristic": {
+            "li1": {
+                "span": "original",
+                "p" : "Our wrote all the code ourself(GPT is our good friend)."
+            },
+            "li2": {
+                "span": "free",
+                "p" : "All programs here are free!"
+            },
+            "li3": {
+                "span": "project",
+                "p" : "Our website is thriving!"
+            }
+        },
+        "technology": "We provide a preview of the element and a source code download."
+    },
+    "element": {
+        "element1": {
+            "p": "gyroscope verification code",
+            "span": "Invoke the device's gyroscope to enter the verification code"
+        }
+    },
+    "about": {
+        "p1": "This website contains some useful and useless tools (toy) that I have made myself, including interesting ones that I have seen while surfing the Internet.",
+        "p2": "The toy may have been built by someone else, but I wrote a copy of it from scratch, just for exercise.",
+        "p3": "My current Vue level is not high, so the quality of the website may not be very good, I hope that a big boss can see and give advice to help me add and modify."
+    }
+}
