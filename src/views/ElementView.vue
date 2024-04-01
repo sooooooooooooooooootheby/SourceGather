@@ -10,6 +10,15 @@
                     View ->
                 </router-link>
             </li>
+            <li>
+                <div class="title">
+                    <p>font</p>
+                    <span>Here is a collection of open source fonts (mainly in brief)</span>
+                </div>
+                <router-link class="button" to="/element/font">
+                    View ->
+                </router-link>
+            </li>
         </ul>
     </div>
 </template>

@@ -9,6 +9,11 @@ const tool = [
         name: "gyrocode",
         component: () => import("@/components/element/gyroCode.vue"),
     },
+    {
+        path: "/element/font",
+        name: "font",
+        component: () => import("@/components/element/font.vue"),
+    },
 ];
 
 export default tool;
