@@ -1,0 +1,23 @@
+{
+    "gyroCode": {
+        "card": {
+            "p": "gyroscope verification code",
+            "span": "Invoke the device's gyroscope to enter the verification code"
+        },
+        "codeBox": {
+            "h3": "Enter the code by shaking the phone",
+            "button1": "confirm",
+            "button2": "retype",
+            "button3": "Obtain gyroscope permissions"
+        },
+        "console": {
+            "p1": "Generate code and verify",
+            "button1": "Click Generate code",
+            "p2": "The generated code is",
+            "p3": "Allowable error: The current error is to ignore the last four digits",
+            "button2": "Click verify code",
+            "p4": "result",
+            "p5": "Current XZY data"
+        }
+    }
+}

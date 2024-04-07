@@ -2,26 +2,26 @@
     <div class="box">
         <div class="element">
             <div class="codeBox">
-                <h3>摇晃手机输入验证码</h3>
+                <h3>{{ $t('gyroCode.codeBox.h3') }}</h3>
                 <div class="text" ref="text">{{ text }}</div>
                 <div>
-                    <button class="button" @click="confirm">确认验证码</button>
-                    <button class="button" @click="recover">重新输入验证码</button>
-                    <button class="button" @click="allowOrientation">获取陀螺仪权限</button>
+                    <button class="button" @click="confirm">{{ $t('gyroCode.codeBox.button1') }}</button>
+                    <button class="button" @click="recover">{{ $t('gyroCode.codeBox.button2') }}</button>
+                    <button class="button" @click="allowOrientation">{{ $t('gyroCode.codeBox.button3') }}</button>
                 </div>
             </div>
             <div class="codeConsole">
                 <div>
-                    生成验证码并验证
-                    <button class="button" @click="createCode">点击生成验证码</button>
-                    <p>当前生成验证码为: {{ randomCode }}</p>
-                    <p>允许存在的误差:当前误差为忽略后四位数</p>
-                    <button class="button" @click="verify">点击验证验证码</button>
-                    <p>结果: {{ verification }}</p>
+                    <p>{{ $t('gyroCode.console.p1') }}</p>
+                    <button class="button" @click="createCode">{{ $t('gyroCode.console.button1') }}</button>
+                    <p>{{ $t('gyroCode.console.p2') }}: {{ randomCode }}</p>
+                    <p>{{ $t('gyroCode.console.p3') }}</p>
+                    <button class="button" @click="verify">{{ $t('gyroCode.console.button2') }}</button>
+                    <p>{{ $t('gyroCode.console.p4') }}: {{ verification }}</p>
                 </div>
                 <br>
                 <div>
-                    当前XZY数据
+                    <p>{{ $t('gyroCode.console.p5') }}</p>
                     <ul>
                         <li>Alpha: {{ X }}</li>
                         <li>Beta: {{ Y }}</li>

@@ -3,8 +3,8 @@
         <ul>
             <li>
                 <div class="title">
-                    <p>{{ $t('element.element1.p') }}</p>
-                    <span>{{ $t('element.element1.span') }}</span>
+                    <p>{{ $t('gyroCode.card.p') }}</p>
+                    <span>{{ $t('gyroCode.card.span') }}</span>
                 </div>
                 <router-link class="button" to="/element/gyroCode">
                     View ->
@@ -12,8 +12,8 @@
             </li>
             <li>
                 <div class="title">
-                    <p>font</p>
-                    <span>Here is a collection of open source fonts (mainly in brief)</span>
+                    <p>{{ $t('font.card.p') }}</p>
+                    <span>{{ $t('font.card.span') }}</span>
                 </div>
                 <router-link class="button" to="/element/font">
                     View ->
