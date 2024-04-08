@@ -6,18 +6,22 @@
                     <p>{{ $t('gyroCode.card.p') }}</p>
                     <span>{{ $t('gyroCode.card.span') }}</span>
                 </div>
-                <router-link class="button" to="/element/gyroCode">
-                    View ->
-                </router-link>
+                <div class="buttonBox">
+                    <router-link class="button" to="/element/gyroCode">
+                        View ->
+                    </router-link>
+                </div>
             </li>
             <li>
                 <div class="title">
                     <p>{{ $t('font.card.p') }}</p>
                     <span>{{ $t('font.card.span') }}</span>
                 </div>
-                <router-link class="button" to="/element/font">
-                    View ->
-                </router-link>
+                <div class="buttonBox">
+                    <router-link class="button" to="/element/font">
+                        View ->
+                    </router-link>
+                </div>
             </li>
         </ul>
     </div>

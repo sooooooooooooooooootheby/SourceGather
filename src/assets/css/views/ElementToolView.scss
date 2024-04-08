@@ -7,7 +7,7 @@
     ul {
         margin: 0 auto;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
 
         li {
             list-style: none;
@@ -46,21 +46,31 @@
                 }
             }
 
-            .button {
-                padding: 10px 20px;
-                background-color: #839476;
-                border-radius: 20px;
-                color: #FFFFFF;
-                font-size: 16px;
-            font-family: sourceHanBold;
+            .buttonBox {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: flex-end;
 
-                cursor: pointer;
-                transition: 0.3s;
-                text-decoration: none;
-            }
+                .button {
+                    width: 60px;
+                    display: flex;
+                    justify-content: center;
+                    padding: 10px 20px;
+                    background-color: #839476;
+                    border-radius: 10px;
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    font-family: sourceHanBold;
 
-            .button:hover {
-                background-color: #3C3C43;
+                    cursor: pointer;
+                    transition: 0.3s;
+                    text-decoration: none;
+                }
+
+                .button:hover {
+                    background-color: #3C3C43;
+                }
             }
         }
 

@@ -24,16 +24,9 @@
                     <svg class="icon" aria-hidden="true">
                         <use xlink:href="#icon-AR1"></use>
                     </svg>
-                    <span>3 {{ $t("home.characteristic.li3.span") }}</span>
+                    <span>4 {{ $t("home.characteristic.li3.span") }}</span>
                     <p>{{ $t("home.characteristic.li3.p") }}</p>
                 </li>
-            </ul>
-        </div>
-        <div class="technology">
-            <p>{{ $t("home.technology") }}</p>
-            <ul>
-                <li>vue.js</li>
-                <li>sass</li>
             </ul>
         </div>
     </div>

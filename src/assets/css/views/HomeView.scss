@@ -1,10 +1,11 @@
 .home {
-    width: calc(100vw - 256px);
-    height: auto;
-    padding: 168px 128px 0px 128px;
+    width: 100vw;
+    height: 100vh;
+    // padding: 168px 128px 0px 128px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: #3C3C43;
 
     >div {
@@ -72,37 +73,6 @@
             }
         }
     }
-
-    .technology {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        p {
-            font-family: sourceHanBold;
-
-        }
-
-        ul {
-            display: flex;
-
-            li {
-                margin: 30px;
-                padding: 10px 30px;
-                display: flex;
-                list-style: none;
-                border: 2px solid #3C3C43C7;
-                border-radius: 100px;
-                transition: 0.3s;
-            }
-
-            li:hover {
-                background-color: #3C3C43;
-                color: #FFFFFF;
-            }
-        }
-    }
 }
 
 @media screen and (max-width: 430px) {
@@ -131,11 +101,6 @@
             li {
                 margin: 30px 0 !important;
             }
-        }
-    }
-    .technology {
-        p {
-            text-align: center;
         }
     }
 }

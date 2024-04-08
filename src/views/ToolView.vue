@@ -6,9 +6,11 @@
                     <p>{{ $t('windowsBlue.card.p') }}</p>
                     <span>{{ $t('windowsBlue.card.span') }}</span>
                 </div>
-                <router-link class="button" to="/tool/windowsblue">
-                    View ->
-                </router-link>
+                <div class="buttonBox">
+                    <router-link class="button" to="/tool/windowsblue">
+                        View ->
+                    </router-link>
+                </div>
             </li>
             <li>
                 <div class="title">
@@ -17,9 +19,11 @@
                     <br>
                     <span>By: <a href="https://github.com/ThaTiemsz">ThaTiemsz</a></span>
                 </div>
-                <router-link class="button" to="/tool/discordEmoji">
-                    View ->
-                </router-link>
+                <div class="buttonBox">
+                    <router-link class="button" to="/tool/discordEmoji">
+                        View ->
+                    </router-link>
+                </div>
             </li>
         </ul>
     </div>
